@@ -37,3 +37,18 @@
 .text-content p {
     margin: 0;
 }
+
+.timeline-container {
+    display: flex;
+    justify-content: space-around; /* Center and distribute items */
+    margin-bottom: 20px; /* Add space below the timeline boxes */
+}
+
+.timeline-box {
+    background-color: #0a358c; /* Dark blue background color */
+    color: white; /* White text color */
+    padding: 15px 30px; /* Increased padding for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    width: 478px; /* Equal width for each timeline box */
+    text-align: center; /* Center text horizontally */
+}

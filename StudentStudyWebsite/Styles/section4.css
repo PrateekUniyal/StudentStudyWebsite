@@ -37,11 +37,32 @@
 .box-div {
     width: 80%; /* Example width */
     height: 200px; /* Example height */
-    background-color: #4caf50; /* Example background color */
+    /* background-color: #4caf50;  */
     margin: 20px auto; /* Center horizontally with top margin */
     border-radius: 10px; /* Rounded corners */
     display: flex; /* Flexbox for alignment */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     text-align: center; /* Center align text inside box-div */
+}
+.hexagon {
+    position: relative;
+    width: 100px; /* Adjust size of hexagon */
+    height: 115px; /* Adjust height to create alternating height effect */
+    background-color: #fff;
+    margin: 0 10px; /* Adjust spacing between hexagons */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    /* Clip-path for hexagon shape */
+    overflow: hidden;
+    border: 2px solid #4caf50;
+}
+
+.hexagon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 45%; /* Ensure image fits inside hexagon */
+    height: auto;
+    border-radius: 5px; /* Adjust border radius if needed */
 }
