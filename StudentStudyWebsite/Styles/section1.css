@@ -1,0 +1,136 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color:#dcdada; */
+    color: #fff;
+}
+
+/* .logo-container {
+    flex-shrink: 0;
+} */
+
+.logo {
+    height: 110px;
+    width: auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #3232a2;
+    font-weight: 1px;
+    transition: color 0.3s ease;
+}
+
+/* .main-nav ul li a:hover {
+    color: #ddd;
+} */
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    padding: 5px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #3232a2;
+    border: 1px solid #3232a2;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.signup{
+    background-color:#c7c7c7;
+    color: #fff;
+    border: none;
+}
+.btn:hover {
+    background-color: #454444;
+    color: #fff;
+    border: none;
+}
+
+
+.hero-section {
+    height: 500px; /* Adjust height as needed */
+    background-image: url('../images/The\ student\ Helpline\ Study\ in\ Canada.pdf-image-000.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flag-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    height: 40px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.blue-background {
+    background-color: #007bff; /* Blue background color */
+    padding: 20px;
+    border-radius: 40px; /* Border radius */
+    margin-top: 10px; /* Margin to separate from above content */
+}
+
+.feature-section {
+    background-color: #fff;
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.feature-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    padding: 0;
+    margin: 18px 0; /* Space from top and bottom */
+}
+
+.feature-list li {
+    /* background-color: #f0f0f0; */
+    font-size: large;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 0 5px; /* Space between items */
+}

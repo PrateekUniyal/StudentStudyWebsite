@@ -1,0 +1,115 @@
+.section8div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Add gap between left-box8 and right-box8 */
+}
+
+.left-box8, .right-box8 {
+    flex: 1;
+    /* background-color: #f0f0f0; */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left-box8 {
+    /* background-color: #dcdcdc; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between logo and content */
+}
+
+.social-media {
+    display: flex;
+    gap: 10px; /* Adjust space between social media icons */
+    margin-bottom: 20px; /* Space between social media icons and content */
+}
+
+.social-media img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust space between contact details */
+    margin-top: 20px; /* Space between social media and contact info */
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.legal-links {
+    margin-top: 20px; /* Space between contact info and legal links */
+}
+
+.legal-links p {
+    margin: 0;
+}
+
+.legal-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.right-box8 {
+    background-color: #ffffff; 
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+}
+
+.column h3 {
+    margin-top: 0;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.dropdown {
+    float: right;
+}
+
+hr {
+    border: 1px solid rgb(202, 200, 200); /* Example color */
+}

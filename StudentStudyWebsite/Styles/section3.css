@@ -1,0 +1,40 @@
+.section3 {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    text-align: center; /* Center align all content */
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between; /* Spacing between h1 and .slide */
+    align-items: center; /* Align items vertically */
+    max-width: 800px; /* Example max-width */
+    margin: 0 auto; /* Center the container */
+}
+
+.sec3 h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.slide {
+    margin-left: auto; /* Push .slide to the rightmost side */
+}
+
+.blog-line {
+    margin-top: 20px; /* Adjust margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-line p {
+    background-color: #f0f0f0; /* Match container background */
+    padding: 0 10px; /* Add padding around text */
+    margin: 0; /* Remove default margin */
+}
+
+.blue-line {
+    border: none; /* Remove default border */
+    border-top: 2px solid #23239c; /* Blue line */
+    width: 100%; /* Full width of container */
+}

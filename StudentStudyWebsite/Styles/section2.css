@@ -1,0 +1,57 @@
+.horizontal-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    flex: 2; /* Adjust width ratio */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px; /* Add margin to separate from the right section */
+}
+
+.right-section {
+    flex: 1; /* Adjust width ratio */
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.centered-div {
+    text-align: center;
+    margin-top: 10px; /* Adjust margin as needed */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 300px; /* Center the centered-div */
+    max-width: 62%; /* Example max-width for the centered-div */
+}
+
+.after-centered-div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Center horizontally with space */
+    max-width: 95%; /* Example max-width */
+}
+
+.after-centered-div p {
+    margin: 10px 0;
+    text-align: center; /* Center text within the paragraph */
+}
+
+.after-centered-div strong {
+    color: black;
+    text-align: center; /* Center text within the paragraph */
+}
+
+.after-centered-div span {
+    color: #23239c;
+    font-size: 24px; /* Adjust font size of the arrow */
+}
+
+.after-centered-div strong {
+    color: black;
+}

@@ -1,0 +1,79 @@
+.section5 {
+    padding: 20px;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: space-between; /* Space out the boxes equally */
+    margin: 20px auto; /* Center the container */
+    max-width: 1200px; /* Example max-width to control overall width */
+}
+
+.timeline-box {
+    flex: 1; /* Allow boxes to grow equally */
+    background-color: #23239c; /* Example background color */
+    margin: 0 10px; /* Space between boxes */
+    height: 45px; /* Example height */
+    display: flex; /* Center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text inside the box */
+}
+
+/* Ensure first and last boxes don't have extra side margins */
+.timeline-box:first-child {
+    margin-left: 0;
+}
+
+.timeline-box:last-child {
+    margin-right: 0;
+}
+
+.span-container {
+    display: flex;
+    justify-content: space-between; /* Space out the spans equally */
+    margin: 20px auto; /* Center the container */
+    max-width: 1200px; /* Example max-width to control overall width */
+}
+
+.left-span, .right-span {
+    flex: 1; /* Allow spans to grow equally */
+    text-align: center; /* Center text inside the spans */
+    color: #000; /* Text color */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px; /* Padding inside spans */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between spans */
+}
+
+/* Ensure first and last spans don't have extra side margins */
+.left-span:first-child {
+    margin-left: 0;
+}
+
+.right-span:last-child {
+    margin-right: 0;
+}
+
+.highlighted-div {
+    width: 80%; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    /* background-color: rgba(35, 35, 156, 0.8); */
+    margin: 20px auto; /* Center the div horizontally */
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow to give a highlighted effect */
+}
+
+.highlighted-div::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    z-index: -1;
+}

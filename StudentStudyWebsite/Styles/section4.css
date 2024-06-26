@@ -1,0 +1,47 @@
+.section4 {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-between; /* Spacing between h1 and .slideSection4 */
+    align-items: center; /* Align items vertically */
+    max-width: 800px; /* Example max-width */
+    margin: 0 auto 20px; /* Center the container and add bottom margin */
+}
+
+.sec4 h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.slideSection4 {
+    margin-left: auto; /* Push .slideSection4 to the rightmost side */
+}
+
+.centered-div-sec4 {
+    text-align: center; /* Center align text */
+    background-color: #23239c; /* Blue background color */
+    padding: 10px; /* Example padding */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 600px; /* Example max-width */
+    margin: 0 auto 20px; /* Center horizontally with bottom margin */
+}
+
+.centered-div-sec4 p {
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* Remove default margin */
+}
+
+.box-div {
+    width: 80%; /* Example width */
+    height: 200px; /* Example height */
+    background-color: #4caf50; /* Example background color */
+    margin: 20px auto; /* Center horizontally with top margin */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center align text inside box-div */
+}

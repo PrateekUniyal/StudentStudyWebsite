@@ -1,0 +1,100 @@
+.section7 {
+    padding: 20px;
+}
+
+.sec7heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #e6e3e9;
+    border-radius: 10px;
+}
+
+.left-box7 {
+    flex: 2;
+    /* background-color: #4CAF50; */
+    border-radius: 10px;
+    display: flex; /* Use flex to align image and text */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Adjust padding for spacing */
+}
+
+.right-box7 {
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.expert-button {
+    background: linear-gradient(to right, #2b7ce7, #4da3ff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.expert-button:hover {
+    background-color: #2b7ce7;
+}
+
+.image-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-text img {
+    max-width: 100px;
+    margin-right: 10px; 
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content p {
+    margin: 0;
+}
+
+.blue-text {
+    color: rgb(12, 81, 184);
+}
+
+.two-cols {
+    display: flex; 
+}
+
+.col {
+    flex: 1;
+    height: 450px; 
+}
+
+.border7{
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.upsection7, .downsection7 {
+    background-color: #d4c9e7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin between sections */
+}
+
+.downsection7 {
+    margin-top: 3%; /* Add margin between upsection and downsection */
+}
+
+.upsection7 p, .downsection7 p {
+    margin: 0; /* Remove default paragraph margins */
+    
+}
+
