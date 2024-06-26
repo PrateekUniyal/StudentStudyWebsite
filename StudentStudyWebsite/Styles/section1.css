@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     /* background-color:#dcdada; */
     color: #fff;
 }
@@ -29,7 +29,7 @@
 
 .main-nav ul li a {
     text-decoration: none;
-    color: #3232a2;
+    color: #23239c;
     font-weight: 1px;
     transition: color 0.3s ease;
 }
@@ -52,8 +52,8 @@
 
 .btn {
     background-color: #fff;
-    color: #3232a2;
-    border: 1px solid #3232a2;
+    color: #23239c;
+    border: 1px solid #23239c;
     padding: 10px 20px;
     margin-left: 10px;
     cursor: pointer;
@@ -79,7 +79,7 @@
 
 
 .hero-section {
-    height: 500px; /* Adjust height as needed */
+    height: 546px; /* Adjust height as needed */
     background-image: url('../images/The\ student\ Helpline\ Study\ in\ Canada.pdf-image-000.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
