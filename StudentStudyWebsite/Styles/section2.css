@@ -6,27 +6,59 @@
 
 .left-section {
     flex: 2; /* Adjust width ratio */
-    background-color: #f0f0f0;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 18px;
     margin-right: 20px; /* Add margin to separate from the right section */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
+    align-items: center;
+    border: 5px solid #f0f0f0 ;
 }
 
 .right-section {
     flex: 1; /* Adjust width ratio */
-    background-color: #ddd;
+    border: 5px solid #f0f0f0 ;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 18px;
+    display: flex; /* Ensure items inside right-section are flex items */
+    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 10px; /* Space between items */
+    flex: 1 1 30%; /* Allow items to grow and shrink, set base width */
+    min-width: 30%; /* Ensure minimum width for each item */
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 50px; /* Adjust the size of the image */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 5px;
+}
+
+.text-content {
+    font-size: 14px;
+    flex: 1; /* Allow text content to take up remaining space */
+}
+
+.text-content p {
+    margin: 0;
 }
 
 .centered-div {
     text-align: center;
-    margin-top: 10px; /* Adjust margin as needed */
-    background-color: #f0f0f0; /* Example background color */
+    border: 5px solid #f0f0f0 ;
     padding: 20px;
-    border-radius: 10px;
-    margin: 0 300px; /* Center the centered-div */
-    max-width: 62%; /* Example max-width for the centered-div */
+    border-radius: 18px;
+    margin: 20px auto; /* Center horizontally with some margin */
+    max-width: 80%; /* Example max-width for centered content */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
+    justify-content: center; /* Center items horizontally */
 }
 
 .after-centered-div {
@@ -35,6 +67,9 @@
     border-radius: 10px;
     margin: 20px auto; /* Center horizontally with space */
     max-width: 95%; /* Example max-width */
+
+    /* Center text content */
+    text-align: center;
 }
 
 .after-centered-div p {
@@ -50,8 +85,4 @@
 .after-centered-div span {
     color: #23239c;
     font-size: 24px; /* Adjust font size of the arrow */
-}
-
-.after-centered-div strong {
-    color: black;
 }
