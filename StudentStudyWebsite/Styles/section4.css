@@ -21,10 +21,10 @@
 
 .centered-div-sec4 {
     text-align: center; /* Center align text */
-    background-color: #23239c; /* Blue background color */
+    background-color: #0486f4; /* Blue background color */
     padding: 10px; /* Example padding */
-    border-radius: 5px; /* Rounded corners */
-    max-width: 600px; /* Example max-width */
+    border-radius: 18px; /* Rounded corners */
+    max-width: 400px; /* Example max-width */
     margin: 0 auto 20px; /* Center horizontally with bottom margin */
 }
 
@@ -65,4 +65,106 @@
     max-width: 45%; /* Ensure image fits inside hexagon */
     height: auto;
     border-radius: 5px; /* Adjust border radius if needed */
+}
+
+.slide2 {
+    display: flex;
+    justify-content: space-between; /* Ensure space between boxes */
+    padding: 0 20px; /* Add padding to the left and right sides */
+    margin: 20px auto; /* Center the slide2 container horizontally */
+}
+
+.slidebox2 {
+    width: 28%;
+    height: 260px;
+    background-color: #EBEBF5; /* Example background color */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 10px; /* Space between boxes */
+    border: 3px solid #CFD1D0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.small-image {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.university-name {
+    color: #179ad0;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location {
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.requirements {
+    width: 100%;
+}
+
+.requirement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.small-icon {
+    width: 40px;
+    height: 42px;
+    margin-right: 10px; /* Space to the right of the image */
+}
+
+.requirement-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    font-size: 16px;
+    margin: 0;
+    color: grey;
+}
+
+.description {
+    font-size: 16px;
+    color: grey;
+    margin: 0;
+}
+
+.apply-now {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #179ad0;
+    color: #179ad0;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.apply-now:hover {
+    background-color: #179ad0;
+    color: white;
+}
+
+.slidebox2:first-child {
+    margin-left: 20px; /* Margin on the left side of the first box */
+}
+
+.slidebox2:last-child {
+    margin-right: 20px; /* Margin on the right side of the last box */
 }

@@ -62,12 +62,12 @@
 }
 
 .after-centered-div {
-    background-color: #f0f0f0;
+    background-color: #f6f8f7;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto; /* Center horizontally with space */
     max-width: 95%; /* Example max-width */
-
+    height: 385px;
     /* Center text content */
     text-align: center;
 }
@@ -75,6 +75,7 @@
 .after-centered-div p {
     margin: 10px 0;
     text-align: center; /* Center text within the paragraph */
+    font-size: 25px;
 }
 
 .after-centered-div strong {

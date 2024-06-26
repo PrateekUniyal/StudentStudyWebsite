@@ -1,5 +1,5 @@
 .section3 {
-    background-color: #f0f0f0; /* Example background color */
+    background-color: #EFEFF1; /* Example background color */
     padding: 20px;
     text-align: center; /* Center align all content */
 }
@@ -35,6 +35,96 @@
 
 .blue-line {
     border: none; /* Remove default border */
-    border-top: 2px solid #23239c; /* Blue line */
+    border-top: 2px solid #0E95C2; /* Blue line */
     width: 100%; /* Full width of container */
+}
+
+.slide1 {
+    display: flex;
+    justify-content: space-between; /* Ensure space between boxes */
+    padding: 0 20px; /* Add padding to the left and right sides */
+    margin: 20px auto; /* Center the slide1 container horizontally */
+}
+
+.slidebox1 {
+    width: 30%; /* Adjust width as needed */
+    height: 490px; /* Adjust height as needed */
+    background-color: #EBEBF5; /* Example background color */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 10px; /* Space between boxes */
+    border: 3px solid #CFD1D0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.slidebox1:first-child {
+    margin-left: 20px; /* Margin on the left side of the first box */
+}
+
+.slidebox1:last-child {
+    margin-right: 20px; /* Margin on the right side of the last box */
+}
+
+.slidebox1-image {
+    width: 100%;
+    height: 50%; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.slidebox1-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.study-in-canada {
+    color: #179ad0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.university-title {
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.read-time {
+    color: #5f6065;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.divider {
+    border: 1px solid lightgray;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.university-description {
+    margin: 10px 0;
+    text-align: center;
+    color: #5f6065;
+}
+
+.read-more-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border:2px solid lightgray;
+    color: #5f6065;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more-button:hover {
+    border:2px solid lightgray;
+    color: #5f6065;
 }
