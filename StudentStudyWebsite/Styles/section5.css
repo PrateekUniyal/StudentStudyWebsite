@@ -52,3 +52,65 @@
     width: 478px; /* Equal width for each timeline box */
     text-align: center; /* Center text horizontally */
 }
+
+.span-container {
+    display: flex;
+    justify-content: space-around; /* Distribute items with space around */
+    padding: 10px; 
+    background-color: #f0f0f0; /* Example background color */
+}
+
+.left-span {
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.right-span {
+    padding: 10px; /* Adjust padding as needed */
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Ensure space between boxes */
+    padding-left: 20px; /* Add padding to the left of the container */
+    padding-right: 20px; /* Add padding to the right of the container */
+}
+
+.left-box {
+    width: 35%;
+    height: auto;
+    background-color: #13a2d6; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set font color to white */
+    margin-left: 20px; /* Add margin to the left side of the left box */
+}
+
+.right-box {
+    width: 50%; /* Adjusted width */
+    height: 45px; /* Adjusted height */
+    background-color: #13a2d6; /* Example background color */
+    border-radius: 10px;
+    margin-right: 20px; /* Margin on the right side */
+    color: white; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text within box */
+    padding: 10px; /* Padding inside the box */
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Ensure space between images */
+    margin-top: 20px; /* Example margin */
+}
+
