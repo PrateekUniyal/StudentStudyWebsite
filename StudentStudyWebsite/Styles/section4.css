@@ -1,5 +1,5 @@
 .section4 {
-    background-color: #f0f0f0; /* Example background color */
+    background-color: #fff; /* Example background color */
     padding: 20px;
 }
 
@@ -49,7 +49,7 @@
     position: relative;
     width: 100px; /* Adjust size of hexagon */
     height: 115px; /* Adjust height to create alternating height effect */
-    background-color: #fff;
+    background-color: #f0f0f0;
     margin: 0 10px; /* Adjust spacing between hexagons */
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     /* Clip-path for hexagon shape */

@@ -45,7 +45,7 @@
 }
 
 .timeline-box {
-    background-color: #0a358c; /* Dark blue background color */
+    background-color: #194e80; /* Dark blue background color */
     color: white; /* White text color */
     padding: 15px 30px; /* Increased padding for better visibility */
     border-radius: 5px; /* Rounded corners */
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-around; /* Distribute items with space around */
     padding: 10px; 
-    background-color: #f0f0f0; /* Example background color */
+    /* background-color: #f0f0f0; */
 }
 
 .left-span {
@@ -67,9 +67,6 @@
 .right-span {
     padding: 10px; /* Adjust padding as needed */
 }
-
-
-
 
 .container {
     display: flex;
@@ -81,7 +78,7 @@
 .left-box {
     width: 35%;
     height: auto;
-    background-color: #13a2d6; 
+    background-color: #4085bc; 
     padding: 20px;
     border-radius: 10px;
     margin-right: 20px;
@@ -91,12 +88,13 @@
     align-items: center;
     color: white; /* Set font color to white */
     margin-left: 20px; /* Add margin to the left side of the left box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .right-box {
     width: 50%; /* Adjusted width */
     height: 45px; /* Adjusted height */
-    background-color: #13a2d6; /* Example background color */
+    background-color: #4085bc; /* Example background color */
     border-radius: 10px;
     margin-right: 20px; /* Margin on the right side */
     color: white; /* Text color */
@@ -105,6 +103,7 @@
     align-items: center; /* Center content vertically */
     text-align: center; /* Center text within box */
     padding: 10px; /* Padding inside the box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 
