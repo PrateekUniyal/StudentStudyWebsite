@@ -1,59 +1,59 @@
 .section3 {
-    background-color: #EFEFF1; /* Example background color */
+    background-color: #EFEFF1; 
     padding: 20px;
-    text-align: center; /* Center align all content */
+    text-align: center; 
 }
 
 .sec3 {
     display: flex;
-    justify-content: space-between; /* Spacing between h1 and .slide */
-    align-items: center; /* Align items vertically */
-    max-width: 800px; /* Example max-width */
-    margin: 0 auto; /* Center the container */
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .sec3 h1 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .slide {
-    margin-left: auto; /* Push .slide to the rightmost side */
+    margin-left: auto; 
 }
 
 .blog-line {
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .blog-line p {
-    background-color: #f0f0f0; /* Match container background */
-    padding: 0 10px; /* Add padding around text */
-    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; 
+    padding: 0 10px; 
+    margin: 0; 
 }
 
 .blue-line {
-    border: none; /* Remove default border */
-    border-top: 2px solid #0E95C2; /* Blue line */
-    width: 100%; /* Full width of container */
+    border: none; 
+    border-top: 2px solid #0E95C2; 
+    width: 100%;
 }
 
 .slide1 {
     display: flex;
-    justify-content: space-between; /* Ensure space between boxes */
-    padding: 0 20px; /* Add padding to the left and right sides */
-    margin: 20px auto; /* Center the slide1 container horizontally */
+    justify-content: space-between; 
+    padding: 0 20px;
+    margin: 20px auto; 
 }
 
 .slidebox1 {
-    width: 30%; /* Adjust width as needed */
-    height: 490px; /* Adjust height as needed */
-    background-color: #EBEBF5; /* Example background color */
-    border-radius: 10px; /* Rounded corners */
-    margin: 0 10px; /* Space between boxes */
+    width: 30%; 
+    height: 490px; 
+    background-color: #EBEBF5; 
+    border-radius: 10px; 
+    margin: 0 10px;
     border: 3px solid #CFD1D0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,18 +62,18 @@
 }
 
 .slidebox1:first-child {
-    margin-left: 20px; /* Margin on the left side of the first box */
+    margin-left: 20px; 
 }
 
 .slidebox1:last-child {
-    margin-right: 20px; /* Margin on the right side of the last box */
+    margin-right: 20px; 
 }
 
 .slidebox1-image {
     width: 100%;
-    height: 50%; /* Adjust height as needed */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    height: 50%; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0; 
 }
 
 .slidebox1-content {

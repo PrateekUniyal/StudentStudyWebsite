@@ -1,58 +1,55 @@
 .section4 {
-    background-color: #fff; /* Example background color */
-    padding: 20px;
+    background-color: #fff; 
 }
 
 .sec4 {
     display: flex;
-    justify-content: space-between; /* Spacing between h1 and .slideSection4 */
-    align-items: center; /* Align items vertically */
-    max-width: 800px; /* Example max-width */
-    margin: 0 auto 20px; /* Center the container and add bottom margin */
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto 20px; 
 }
 
 .sec4 h1 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .slideSection4 {
-    margin-left: auto; /* Push .slideSection4 to the rightmost side */
+    margin-left: auto; 
 }
 
 .centered-div-sec4 {
-    text-align: center; /* Center align text */
-    background-color: #0486f4; /* Blue background color */
-    padding: 10px; /* Example padding */
-    border-radius: 18px; /* Rounded corners */
-    max-width: 400px; /* Example max-width */
-    margin: 0 auto 20px; /* Center horizontally with bottom margin */
+    text-align: center; 
+    background-color: #0486f4; 
+    padding: 10px;
+    border-radius: 18px; 
+    max-width: 400px; 
+    margin: 0 auto 20px; 
 }
 
 .centered-div-sec4 p {
-    color: white; /* Text color */
-    font-weight: bold; /* Bold text */
-    margin: 0; /* Remove default margin */
+    color: white; 
+    font-weight: bold; 
+    margin: 0; 
 }
 
 .box-div {
-    width: 80%; /* Example width */
-    height: 200px; /* Example height */
-    /* background-color: #4caf50;  */
-    margin: 20px auto; /* Center horizontally with top margin */
-    border-radius: 10px; /* Rounded corners */
-    display: flex; /* Flexbox for alignment */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    text-align: center; /* Center align text inside box-div */
+    width: 80%; 
+    height: 200px; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 .hexagon {
     position: relative;
-    width: 100px; /* Adjust size of hexagon */
-    height: 115px; /* Adjust height to create alternating height effect */
+    width: 100px; 
+    height: 115px;
     background-color: #f0f0f0;
-    margin: 0 10px; /* Adjust spacing between hexagons */
+    margin: 0 10px; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    /* Clip-path for hexagon shape */
     overflow: hidden;
     border: 2px solid #4caf50;
 }
@@ -62,29 +59,29 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 45%; /* Ensure image fits inside hexagon */
+    max-width: 45%; 
     height: auto;
-    border-radius: 5px; /* Adjust border radius if needed */
+    border-radius: 5px; 
 }
 
 .slide2 {
     display: flex;
-    justify-content: space-between; /* Ensure space between boxes */
-    padding: 0 20px; /* Add padding to the left and right sides */
-    margin: 20px auto; /* Center the slide2 container horizontally */
+    justify-content: space-between; 
+    padding: 0 20px; 
+    margin: 20px auto; 
 }
 
 .slidebox2 {
     width: 28%;
     height: 260px;
-    background-color: #EBEBF5; /* Example background color */
-    border-radius: 10px; /* Rounded corners */
-    margin: 0 10px; /* Space between boxes */
+    background-color: #EBEBF5; 
+    border-radius: 10px; 
+    margin: 0 10px; 
     border: 3px solid #CFD1D0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start; 
     padding: 10px;
     box-sizing: border-box;
     position: relative;
@@ -93,7 +90,7 @@
 .small-image {
     width: 100px;
     height: 25px;
-    margin-bottom: 10px; /* Space below the image */
+    margin-bottom: 10px; 
 }
 
 .university-name {
@@ -122,7 +119,7 @@
 .small-icon {
     width: 40px;
     height: 42px;
-    margin-right: 10px; /* Space to the right of the image */
+    margin-right: 10px;
 }
 
 .requirement-text {
@@ -162,9 +159,9 @@
 }
 
 .slidebox2:first-child {
-    margin-left: 20px; /* Margin on the left side of the first box */
+    margin-left: 20px; 
 }
 
 .slidebox2:last-child {
-    margin-right: 20px; /* Margin on the right side of the last box */
+    margin-right: 20px; 
 }

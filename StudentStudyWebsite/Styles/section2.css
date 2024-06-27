@@ -5,44 +5,44 @@
 }
 
 .left-section {
-    flex: 2; /* Adjust width ratio */
+    flex: 2; 
     padding: 20px;
     border-radius: 18px;
-    margin-right: 20px; /* Add margin to separate from the right section */
+    margin-right: 20px; 
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
+    flex-wrap: wrap; 
     align-items: center;
     border: 5px solid #f0f0f0 ;
 }
 
 .right-section {
-    flex: 1; /* Adjust width ratio */
+    flex: 1; 
     border: 5px solid #f0f0f0 ;
     padding: 20px;
     border-radius: 18px;
-    display: flex; /* Ensure items inside right-section are flex items */
-    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
+    display: flex; 
+    flex-wrap: wrap; 
 }
 
 .item {
     display: flex;
     align-items: center;
-    margin: 10px; /* Space between items */
-    flex: 1 1 30%; /* Allow items to grow and shrink, set base width */
-    min-width: 30%; /* Ensure minimum width for each item */
+    margin: 10px; 
+    flex: 1 1 30%; 
+    min-width: 30%; 
     box-sizing: border-box;
 }
 
 .item img {
-    max-width: 50px; /* Adjust the size of the image */
+    max-width: 50px; 
     height: auto;
-    margin-right: 10px; /* Space between image and text */
+    margin-right: 10px; 
     border-radius: 5px;
 }
 
 .text-content {
     font-size: 14px;
-    flex: 1; /* Allow text content to take up remaining space */
+    flex: 1; 
 }
 
 .text-content p {
@@ -54,36 +54,35 @@
     border: 5px solid #f0f0f0 ;
     padding: 20px;
     border-radius: 18px;
-    margin: 20px auto; /* Center horizontally with some margin */
-    max-width: 80%; /* Example max-width for centered content */
+    margin: 20px auto; 
+    max-width: 80%; 
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of items if they overflow */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .after-centered-div {
     background-color: #f6f8f7;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto; /* Center horizontally with space */
-    max-width: 95%; /* Example max-width */
+    margin: 20px auto; 
+    max-width: 95%; 
     height: 385px;
-    /* Center text content */
     text-align: center;
 }
 
 .after-centered-div p {
     margin: 10px 0;
-    text-align: center; /* Center text within the paragraph */
+    text-align: center; 
     font-size: 25px;
 }
 
 .after-centered-div strong {
     color: black;
-    text-align: center; /* Center text within the paragraph */
+    text-align: center;
 }
 
 .after-centered-div span {
     color: #23239c;
-    font-size: 24px; /* Adjust font size of the arrow */
+    font-size: 24px;
 }

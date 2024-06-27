@@ -1,37 +1,36 @@
 .highlighted-div {
-    width: 72%; /* Adjust width as needed */
-    margin: 20px auto; /* Center the div horizontally */
+    width: 72%; 
+    margin: 20px auto; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Center boxes with space between */
+    justify-content: space-around; 
     border-radius: 10px;
     position: relative;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
-    overflow: hidden; /* Ensure overflow is hidden for the shadow */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden; 
 }
 
 .box {
-    width: calc(20% - 20px); /* Adjust width for each box with margin */
-    margin: 10px; /* Adjust margin for spacing between boxes */
-    text-align: left; /* Align text to the left */
-    /* background-color: #f0f0f0; */
+    width: calc(20% - 20px); 
+    margin: 10px;
+    text-align: left; 
     border-radius: 5px;
     padding: 10px;
-    box-sizing: border-box; /* Include padding and border in box size */
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: center; 
 }
 
 .box img {
-    max-width: 50%; /* Adjust the width of the image */
+    max-width: 50%; 
     height: auto;
     border-radius: 5px;
-    margin-right: 10px; /* Space between image and text */
+    margin-right: 10px; 
 }
 
 .text-content {
     font-size: 14px;
-    flex: 1; /* Allow text content to take remaining space */
+    flex: 1; 
 }
 
 .text-content p {
@@ -40,39 +39,38 @@
 
 .timeline-container {
     display: flex;
-    justify-content: space-around; /* Center and distribute items */
-    margin-bottom: 20px; /* Add space below the timeline boxes */
+    justify-content: space-around; 
+    margin-bottom: 20px; 
 }
 
 .timeline-box {
-    background-color: #194e80; /* Dark blue background color */
-    color: white; /* White text color */
-    padding: 15px 30px; /* Increased padding for better visibility */
-    border-radius: 5px; /* Rounded corners */
-    width: 478px; /* Equal width for each timeline box */
-    text-align: center; /* Center text horizontally */
+    background-color: #194e80; 
+    color: white; 
+    padding: 15px 30px; 
+    border-radius: 5px; 
+    width: 478px; 
+    text-align: center; 
 }
 
 .span-container {
     display: flex;
-    justify-content: space-around; /* Distribute items with space around */
+    justify-content: space-around; 
     padding: 10px; 
-    /* background-color: #f0f0f0; */
 }
 
 .left-span {
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px; 
 }
 
 .right-span {
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px; 
 }
 
 .container {
     display: flex;
-    justify-content: space-between; /* Ensure space between boxes */
-    padding-left: 20px; /* Add padding to the left of the container */
-    padding-right: 20px; /* Add padding to the right of the container */
+    justify-content: space-between; 
+    padding-left: 20px; 
+    padding-right: 20px; 
 }
 
 .left-box {
@@ -86,30 +84,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; /* Set font color to white */
-    margin-left: 20px; /* Add margin to the left side of the left box */
+    color: white;
+    margin-left: 20px; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .right-box {
-    width: 50%; /* Adjusted width */
-    height: 45px; /* Adjusted height */
-    background-color: #4085bc; /* Example background color */
+    width: 50%; 
+    height: 45px; 
+    background-color: #4085bc; 
     border-radius: 10px;
-    margin-right: 20px; /* Margin on the right side */
-    color: white; /* Text color */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    text-align: center; /* Center text within box */
-    padding: 10px; /* Padding inside the box */
+    margin-right: 20px; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 
 .image-container {
     display: flex;
-    justify-content: space-between; /* Ensure space between images */
-    margin-top: 20px; /* Example margin */
+    justify-content: space-between; 
+    margin-top: 20px; 
 }
 

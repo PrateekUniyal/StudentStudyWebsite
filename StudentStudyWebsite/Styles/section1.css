@@ -3,14 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* background-color:#dcdada; */
     color: #fff;
 }
-
-/* .logo-container {
-    flex-shrink: 0;
-} */
-
 .logo {
     height: 110px;
     width: auto;
@@ -33,10 +27,6 @@
     font-weight: 1px;
     transition: color 0.3s ease;
 }
-
-/* .main-nav ul li a:hover {
-    color: #ddd;
-} */
 
 .header-right {
     display: flex;
@@ -79,8 +69,8 @@
 
 
 .hero-section {
-    height: 546px; /* Adjust height as needed */
-    background-image: url('../images/The\ student\ Helpline\ Study\ in\ Canada.pdf-image-000.jpg'); /* Replace with your image path */
+    height: 546px;
+    background-image: url('../images/The\ student\ Helpline\ Study\ in\ Canada.pdf-image-000.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -102,35 +92,33 @@
 }
 
 .flag {
-    height: 40px; /* Adjust height as needed */
+    height: 40px;
     margin-right: 10px;
 }
 
 .blue-background {
-    background-color: #0486f4; /* Blue background color */
+    background-color: #0486f4;
     padding: 20px;
-    border-radius: 40px; /* Border radius */
-    margin-top: 10px; /* Margin to separate from above content */
+    border-radius: 40px; 
+    margin-top: 10px; 
 }
 
 .feature-section {
     background-color: #fff;
-    /* padding: 20px; */
     text-align: center;
 }
 
 .feature-list {
     list-style: none;
     display: flex;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center;
     padding: 0;
-    margin: 18px 0; /* Space from top and bottom */
+    margin: 18px 0;
 }
 
 .feature-list li {
-    /* background-color: #f0f0f0; */
     font-size: large;
     padding: 10px 30px;
     border-radius: 5px;
-    margin: 0 5px; /* Space between items */
+    margin: 0 5px; 
 }

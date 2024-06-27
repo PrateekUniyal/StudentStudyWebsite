@@ -2,45 +2,45 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    gap: 20px; /* Add gap between left-box8 and right-box8 */
+    gap: 20px; 
 }
 
 .left-box8, .right-box8 {
     flex: 1;
-    /* background-color: #f0f0f0; */
+    
     border-radius: 10px;
     padding: 20px;
 }
 
 .left-box8 {
-    /* background-color: #dcdcdc; */
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .logo {
-    max-width: 100px; /* Adjust size as needed */
+    max-width: 100px; 
     height: auto;
-    margin-bottom: 20px; /* Space between logo and content */
+    margin-bottom: 20px; 
 }
 
 .social-media {
     display: flex;
-    gap: 10px; /* Adjust space between social media icons */
-    margin-bottom: 20px; /* Space between social media icons and content */
+    gap: 10px; 
+    margin-bottom: 20px; 
 }
 
 .social-media img {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+    width: 30px; 
+    height: 30px; 
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Adjust space between contact details */
-    margin-top: 20px; /* Space between social media and contact info */
+    gap: 10px; 
+    margin-top: 20px;
 }
 
 .contact-info p {
@@ -48,9 +48,9 @@
 }
 
 .icon {
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    margin-right: 10px; /* Space between icon and text */
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
     vertical-align: middle;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .legal-links {
-    margin-top: 20px; /* Space between contact info and legal links */
+    margin-top: 20px; 
 }
 
 .legal-links p {
@@ -111,5 +111,5 @@
 }
 
 hr {
-    border: 1px solid rgb(202, 200, 200); /* Example color */
+    border: 1px solid rgb(202, 200, 200); 
 }
